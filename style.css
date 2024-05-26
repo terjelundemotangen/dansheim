@@ -1,0 +1,34 @@
+/*
+Theme Name: Dansheim
+Theme URI: 
+Author: Terje Lundemo Tangen
+Author URI: https://landos.no
+Description: Made for Dansheim, Trondheim
+Requires at least: 6.0
+Tested up to: 6.5
+Requires PHP: 5.7
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: dansheim
+Tags: blog, news, photography, grid-layout, wide-blocks, block-styles, custom-background, custom-logo, full-site-editing, full-width-template, template-editing, 
+*/
+
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  /* background-image: linear-gradient(to right, #eee723, #e9d91d, #e4cc18, #debf14, #d8b212, #d8b212, #d8b212, #d8b212, #debf14, #e4cc18, #e9d91d, #eee723);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; */
+}
+
+a {
+  text-decoration: none;
+}
+
+main a:hover {
+  text-decoration: underline;
+}
